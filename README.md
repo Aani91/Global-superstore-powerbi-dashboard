@@ -34,7 +34,7 @@ Welcome to the Global Superstore Power BI report. This report provides insights 
 
     Provides an analysis of customer segments and their purchasing behavior.
     Helps you identify valuable customer segments.
-    Details regarding Shipment coset per shippin mode.
+    Details regarding Shipment coset per shipping mode.
 
 ### How to Use the Report
 
