@@ -36,6 +36,9 @@ Welcome to the Global Superstore Power BI report. This report provides insights 
     Helps you identify valuable customer segments.
     Details regarding Shipment coset per shipping mode.
 
+#### Measure Used
+    ShippingCostPercentage = DIVIDE(SUM(Orders[Shipping Cost]), CALCULATE(SUM(Orders[Shipping Cost]), ALL(Orders[Ship Mode])))
+
 ### How to Use the Report
 
     Use filters to select specific regions, time frames, or product categories.
